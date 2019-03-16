@@ -1,7 +1,7 @@
 describe "Not having any errors and being all green" do
 
-  context 'TypeError' do
-    it 'raises a TypeError when encountering undefined barewords' do
+  context 'NameError' do
+    it 'raises a NameError when encountering undefined barewords' do
       expect{
         load './lib/a_type_error.rb'
       }.to_not raise_error
